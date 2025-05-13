@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background: #000;
+}
+
+#webcam {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    transform: scaleX(-1);
+    z-index: 0;
+}
+
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+    pointer-events: none;
+    transform: scaleX(-1);
+}
+
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+a {
+    color: #0000FF !important;
+}
+
+#links-para{
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    z-index:1000;
+}
+
+#coffee-link {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 10px;
+  z-index:1000;
+}
