@@ -1,6 +1,6 @@
 # Use The Force [Threejs / MediaPipe Demo]
 
-Control a 3D particle animation uses hand gestures in real-time.
+Control a 3D particle animation in real-time using hand gestures.
 
 Demo powered by threejs / WebGL / MediaPipe.
 
